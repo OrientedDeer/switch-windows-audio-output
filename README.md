@@ -15,9 +15,3 @@ Windows has no setting to swap stereo channels. The balance slider doesn't work 
    Copy: L=R R=L
    ```
 4. Save. Takes effect immediately. Remove the line to undo.
-
-## Build from Source
-
-```
-dotnet publish src/SwapAudio/ -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
-```
