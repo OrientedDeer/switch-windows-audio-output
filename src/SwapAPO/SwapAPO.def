@@ -1,0 +1,4 @@
+LIBRARY SwapAPO
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
